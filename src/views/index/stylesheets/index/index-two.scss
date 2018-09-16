@@ -1,3 +1,108 @@
-h1 {
-    font-size: 5em;
+.top{
+    width: 100%;
+    height: 40px;
+    color: #777;
+    background-color: #f6f6f6;
+    border-bottom: solid 1px #E5E5E5;
+    .top-center{
+        width: 1200px;
+        height: 39px;
+        margin:0 auto;
+        line-height: 39px;
+        .top-center-left{
+            float: right;
+            margin-right: 10px;
+            .two{
+              color: #FF6600;  
+            }
+            
+        }
+        .top-center-center{
+            width: 255px;
+           float: right; 
+           .ul-li{
+               float: left;
+               position:relative ;
+                width:78px;
+                height: 39px;
+                line-height: 39px;
+            .ul-li-ul{
+                width:78;
+                height: 28px;
+                position: absolute;
+                overflow: hidden;
+                text-align: center;
+                margin-top: 5px;
+                .xian{
+                    margin-top:10px ;
+                    float: left;
+                    height: 12px;
+                    
+                    display: block;
+                    border-left:1px solid #E5E5E5 ;
+                }
+                li {
+                   width:78px;
+                   
+                    a{
+                    display: block;
+                    width:78px;
+                    height: 28px;
+                    line-height: 28px;
+                   
+                    }
+                    padding:0 5px;
+                   
+                }
+                li:hover{
+                    background: #E5E5E5;
+                }
+                .first-li{
+                   
+                     &:hover{
+                         background: #FFFFFF;
+                        }
+                    i{
+                        display: block;
+                        float: left;
+                        height: 28px;
+                    }
+                    img{
+                        
+                        display: block;
+                        width: 8px;
+                        height: 8px;
+                        float: left;
+                        margin-top:10px ;
+                    }
+                }
+                
+            } 
+            .ul-li-ul:hover{
+                        background: #FFFFFF;
+                        img{
+                            transform: rotateX(180deg);
+                            transition: 2s;
+                            
+                        }
+                        border:1px solid #f1f0f0;
+                        height:auto;
+//                      transition: 2s;
+                        
+                    }  
+           }
+           
+        }
+        .top-center-right{
+            float: right;
+            
+            img{
+                margin: 10px 2px 0 0;
+                float: left;
+            }
+            a{
+                float: left;
+            }
+        }
+    }
 }
