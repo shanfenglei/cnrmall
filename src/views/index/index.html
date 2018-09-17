@@ -85,6 +85,25 @@
 
 			</div>
 		</div>
+		<div id="Q-nav">
+			
+		</div>
 	</body>
-
+	<script type="text/javascript">
+	//当触发滚动条时，获取页面滚走的距离
+	//如果页面滚走的距离 大于  头部高度时，开始 吸顶（固定定位）
+	
+	var h = 40;
+	var nav = document.querySelector("#Q-nav");
+	window.onscroll = function(){
+		//获取页面滚走距离
+		var sTop = document.documentElement.scrollTop || document.body.scrollTop;
+		if( sTop > h ){
+			nav.style.position = "fixed";
+			nav.style.top = 0;
+		}else{
+			nav.style.position = "static";
+		}
+	}
+</script>
 </html>
