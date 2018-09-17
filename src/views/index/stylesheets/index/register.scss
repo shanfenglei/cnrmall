@@ -1,0 +1,225 @@
+
+.box{
+    width: 100%;
+    height: 767px;
+    background: #fafafa;
+    .head{
+        width: 99%;
+        height: 80px;
+        margin: 5px auto  2px auto;
+        background: #FFFFFF;
+        
+        .head-h{
+            width: 1000px;
+            height: 68px;
+            margin: 0 auto;
+            margin-top:10px ;
+            h1{
+                float: left;
+                img{
+                    display: block;
+                    
+                }
+              }
+            p{
+                height: 68px;
+                padding-top:58px ;
+                float:right;
+                font-size:14px;
+                
+                   color:#a29999;
+                a{ 
+                    color: blue;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .bg{
+        width: 100%;
+        height: 620px;
+        background: url(../image/md4wy7q3.bmp) no-repeat;
+        background-size: 100% 680px;
+        margin-top: 2px;
+        .bg-box{
+            width: 870px;
+            height: 572px;
+            background: rgba(209,209,209,.5);
+            margin: 60px auto 0 auto;
+            padding: 10px 0 0 10px;
+            .bg-box-b{
+                background-color: #FFF;
+                display: block;
+                width: 820px;
+                height: 520px;
+                padding: 19px;
+                border: solid 1px #CCC;
+                overflow: hidden;
+            }
+            .bg-box-b-l{
+                width: 600px;
+                height: 520px;
+                float: left;
+                h2{
+                    width: 472px;
+                    height: 40px;
+                    padding-left: 108px;
+                    font-weight: normal;
+                    border-bottom: solid 1px #E6E6E6;
+                    a{
+                        font-size: 18px;
+                        color: #999;
+                        line-height: 24px;
+                        padding-bottom: 13px;
+                        position: relative;
+                        z-index: 1;
+                        font-family: "微软雅黑";
+                    }
+                }
+                .bg-box-b-l-b{
+                    width: 580px;
+                    height: auto;
+                    position: relative;
+                    .form-t{
+                        width: 400px;
+                        height: 210px;
+                        padding: 50px 80px 0 100px;
+                        position: relative;
+                        
+                      .box-p{
+                            background-color: #FFF;
+                            width: 398px;
+                            height: 52px;
+                            margin-top: -1px;
+                            border: solid 1px #E6E6E6;
+                            position: relative;
+                            z-index: 1;
+                            i{
+                                font-style: normal;
+                                font-size: 14px;
+                                line-height: 20px;
+                                color: #666;
+                                width: 88px;
+                                padding: 16px 0 16px 20px;
+                                float: left;
+                            }
+                            img{
+                                float:right;
+                            }
+                            input{
+                                height: 28px;
+                                float: left;
+                                padding: 12px 0;
+                                border: none;
+                                outline: none;
+                            }
+                        }
+                        .box-t{
+                            font-size: 14px;
+                            color: #666;
+                            line-height: 30px;
+                            width: 400px;
+                            height: 30px;
+                            margin-top: 15px;
+                            border: none 0;
+                            a{
+                                color: #0000FF;
+                            }
+                        }
+                        .bton{
+                            a{
+                                display: block;
+                                font-size: 16px;
+                                font-weight: 600;
+                                color: #FFF;
+                                background-color: #FF500B;
+                                width: 398px;
+                                height: 42px;
+                                border: solid 1px #F15C18;
+                                border-radius: 3px;
+                                text-align: center;
+                                line-height: 42px;
+                            }
+                        }
+                    }
+                    .form-p{  
+                        width: 400px;
+                        height: 417px;
+                         padding: 50px 80px 0 100px;
+                        position: absolute;
+                        top: 0;
+                        display: none; 
+                        
+                        .box-p{
+                            background-color: #FFF;
+                                    width: 398px;
+                                    height: 52px;
+                                    margin-top: -1px;
+                                    border: solid 1px #E6E6E6;
+                                    position: relative;
+                                   
+                            i{
+                                font-style: normal;
+                                font-size: 14px;
+                                line-height: 20px;
+                                color: #666;
+                                width: 88px;
+                                padding: 16px 0 16px 20px;
+                                float: left;
+                            }
+                            img{
+                                        float:right;
+                                    }
+                                    input{
+                                        height: 28px;
+                                        float: left;
+                                        padding: 12px 0;
+                                        border: none;
+                                        outline: none;
+                                    }
+                            #user {
+                                width:300px;
+                            }       
+                        }
+                        .bton{
+                            #register{
+                                display: block;
+                                font-size: 16px;
+                                font-weight: 600;
+                                color: #FFF;
+                                background-color: #FF500B;
+                                width: 398px;
+                                height: 42px;
+                                border: solid 1px #F15C18;
+                                border-radius: 3px;
+                                text-align: center;
+                                line-height: 42px;
+                            }
+                        }
+                        .duanxin{
+                            font-size: 14px;
+                            color: #666;
+                            line-height: 30px;
+                            width: 400px;
+                            height: 30px;
+                            margin-top: 15px;
+                            border: none 0;
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
+            .bg-box-b-r{
+                width: 200px;
+                height: 500px;
+                float: right;
+                padding: 20px 0 0 19px;
+                border-left: solid 1px #E6E6E6;
+                
+            }
+        } 
+    }
+}
+  

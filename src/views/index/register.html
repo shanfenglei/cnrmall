@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css" href="css/register.min.css"/>
+	</head>
+	
+	<body>
+		<!-- inject:js -->
+			<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+			<script src="js/register.min.js"></script>
+		    <!-- endinject -->
+		
+		<div class="box">
+			<div class="head">
+				<div class="head-h">
+					<h1><a href="#"><img src="img/dfe5c0db500c119e8d570142f184ee2d.png"/></a></h1>
+					<p>我已经注册，现在就<a href="login.html">登录</a></p>
+				</div>
+				 
+			</div>
+			<div class="bg"> 
+				<div class="bg-box">
+					<div class="bg-box-b">
+						<div class="bg-box-b-l">
+							<h2><a href="#">手机注册</a></h2>
+							<div class="bg-box-b-l-b">
+								<form action="" method="get"class="form-t">
+									<p class="box-p"><i>手机号:</i><input type="text"placeholder="请输入手机号" id="username"/></p>
+									<p class="box-p"><i>验证码:</i><input type="text" placeholder="输入验证码" /><img src="img/2018_08_29_21_37.43.bmp" alt="" /></p>
+									<p class="box-t"><input type="checkbox" checked="checked"/>阅读并同意<a href="javascript：void(0);">《服务协议》</a></p>
+									<p class="bton"><a href="javascript:void(0);"id="xiayibu">下一步</a></p>
+								</form>
+								<form action="" method="get" class="form-p">
+									<p class="duanxin">短信已发送至***********，请在1分钟内完成验证。 </p>
+									<p class="box-p"><i>动态码:</i><input type="text"placeholder="输入6位短信验证码" id="text"/></p>
+									<p class="box-p"><i>验证码:</i><input type="text" placeholder="输入验证码" /><img src="img/2018_08_29_21_37.43.bmp" alt="" /></p>
+									<p><a href="#">重新获取动态码</a></p>
+									<p class="box-p"><i>用户名:</i><input type="text"placeholder="请使用6-20个中、英文、数字及“-”符号" id="us"/></p>
+									<p class="box-p"><i>设置密码:</i><input type="text" id="password"/></p>
+									<p class="box-p"><i>确认密码:</i><input type="text"id="conPwd" /></p>
+									<p class="bton"><button id="register">立即注册</button></p>
+								</form>
+							</div>
+							
+						</div>
+						<div class="bg-box-b-r">
+							
+							
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</body>
+</html>

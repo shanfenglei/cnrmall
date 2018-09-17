@@ -9,12 +9,16 @@
 		<!-- inject:css -->
 		<link rel="stylesheet" href="/index/css/common.min.css">
 		<link rel="stylesheet" href="/index/css/index.min.css">
+		<link rel="stylesheet" href="/index/css/login.min.css">
+		<link rel="stylesheet" href="/index/css/register.min.css">
 		<!-- endinject -->
 	</head>
 
 	<body>
 		<!-- inject:js -->
 		<script src="/index/js/index.min.js"></script>
+		<script src="/index/js/login.min.js"></script>
+		<script src="/index/js/register.min.js"></script>
 		<script src="/index/js/vendor.min.js"></script>
 		<!-- endinject -->
 		<div class="top">
@@ -83,14 +87,35 @@
 					</li>
 				</ul>
 				<div class="top-center-left">
-					<a href="#" class="first">您好，请登录</a>
+					<a href="login.html" class="first">您好，请登录</a>
 					<a href="#" class="two">免费注册</a>
 				</div>
 
 			</div>
 		</div>
 		<div id="Q-nav">
-			
+			<div class="nav">
+				<div class="nav-logo">
+					<a href="index.html"><img src="../image/logo.png"/></a>
+				</div>
+				<div class="nav-search">
+					<select id="val" onchange="aa()">
+							<option value="请输入你要搜索的宝贝关键字">宝贝</option>
+							<option value="请输入你要搜索的店铺关键字">店铺</option>
+					</select>
+						
+						<input class="company" id='account' placeholder="请输入你要搜索的宝贝关键字">
+						<button><a href="#">搜索</a></button>
+						<p>
+							<a href="#">突尼斯软籽石榴</a>
+							<a href="#">野生黑枸杞</a>
+							<a href="#">蒲江红心猕猴桃</a>
+							<a href="#">秋木耳</a>
+							<a href="#">中宁头茬红枸杞</a>
+						</p>
+				</div>
+				<div class="nav-right"></div>
+			</div>
 		</div>
 	</body>
 	<script type="text/javascript">
@@ -109,5 +134,8 @@
 			nav.style.position = "static";
 		}
 	}
+	function aa() {
+				document.getElementById('account').value = document.getElementById('val').value;
+			}
 </script>
 </html>
