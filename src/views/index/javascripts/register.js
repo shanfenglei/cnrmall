@@ -61,7 +61,7 @@ $(function(){
 	});
 	
 	//给增登录按钮添加点击事件
-	$("#login").click(function(){
+	$("#register").click(function(){
 		//转到登录页面
 		location.href = "login.html";
 		
