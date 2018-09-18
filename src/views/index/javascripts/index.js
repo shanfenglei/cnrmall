@@ -19,4 +19,3 @@ $(function(){
 			$('.car-on').css('display','none')
 		})
 		})
-	})
