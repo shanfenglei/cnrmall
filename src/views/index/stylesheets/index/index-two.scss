@@ -129,6 +129,7 @@
                 height: 36px;
             }
             select {
+
                 width: 68px;
                 border-right: none;
             }
@@ -704,3 +705,69 @@ a .ico {
    }
    
 }
+#box{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    ul{
+        width:1200px;
+        height:150px;
+        margin:0 auto;
+        background: #FFFFFF;
+        
+        
+        a{
+            float: left;
+            position: relative;
+            display: block;
+          width:299px ;
+          height: 150px;
+          li{
+              float: left;
+              width: 287px;
+              height: 100px;
+              margin: 25px 0 ;
+              padding-left:15px ;
+              border-right:1px solid #e8e4de;
+              h3{
+                 height: 24px;
+                 line-height: 24px;
+                 font-size:16px ;
+                 color: #000000;
+              }
+              h5{
+                  height: 18px;
+                  line-height: 18px;
+                  font-size: 12px;
+                  font-weight: normal;
+              }
+              
+          }
+          li:last{
+              border: none;
+          }
+          img{
+              float: right;
+              position: absolute;
+              right:30px;
+              top:0;
+              z-index: 1;
+          }  
+        }
+        a:hover{
+            h3{
+                padding-top:25px ;
+                transition: 1s;
+            }
+            h5{
+                color: #FF0000;
+                 transition: 1s;
+            }
+            img{
+                transition: 1s;
+                right: 0;
+            }
+        }
+    }
+}
+
