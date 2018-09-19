@@ -482,9 +482,53 @@ background-position: -31px -3px;
         width: 1014px;
         height: 80px;
         margin: 0 auto;
-        background: #0000FF;
+        
         padding-left: 186px;
         .live-r-ul{
+            
+            li{
+                margin: 5px 0;
+                width:408px ;
+                height: 68px;
+                border: 1px solid #E1E1E1;
+                float: left;
+               a{ float: left;
+                   display: block;
+                   width: 90px;
+                   height: 59px;
+                   margin-top:5px;
+                   margin-left: 15px;
+                   
+               } 
+            }
+            .live-r-ul-l{
+                .bg{
+                    
+                    background: url(../../image/121748_0.jpg) no-repeat;
+                    background-size: 90px 59px;
+                }
+                margin-right:10px ;
+                i{float: left;
+                    display: block;
+                    width: 100px;
+                    height: 59px;
+                    margin-left: 5px;
+                    float: left;
+                    background: url(../../image/live.png) no-repeat;
+                }
+            }
+            .live-r-ul-r{
+                i{
+                    float: left;
+                    display: block;
+                    width: 100px;
+                    height: 59px;
+                    margin-left: 5px;
+                    float: left;
+                    background: url(../../image/live.png) no-repeat;
+                    background-position: -100px 0px;
+                }
+            }
             img{
                 float: right;
             }
