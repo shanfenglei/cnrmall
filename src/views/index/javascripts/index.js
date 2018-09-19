@@ -7,15 +7,15 @@ require('./modules/banner')
 require('./modules/header')
 
 console.log('index')
-
-$(function(){
-		$('.nav-right-ul .first-li').mousemove(function(){
-			$('.car-in').css('display','block').mouseleave(function(){
-			$('.car-in').css('display','none')
-		})
-		})
-		$('.nav-right-ul .two-li').mousemove(function(){
-			$('.car-on').css('display','block').mouseleave(function(){
-			$('.car-on').css('display','none')
-		})
-		})
+//
+//$(function(){
+//		$('.nav-right-ul .first-li').mousemove(function(){
+//			$('.car-in').css('display','block').mouseleave(function(){
+//			$('.car-in').css('display','none')
+//		})
+//		})
+//		$('.nav-right-ul .two-li').mousemove(function(){
+//			$('.car-on').css('display','block').mouseleave(function(){
+//			$('.car-on').css('display','none')
+//		})
+//		})

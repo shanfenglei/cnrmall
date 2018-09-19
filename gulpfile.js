@@ -25,7 +25,7 @@ const inject = require('gulp-inject')
 // 编译sass
 const sass = require('gulp-sass')
 //压缩图片
-const imageMin = require('gulp-imagemin');
+//const imageMin = require('gulp-imagemin');
 // 处理html，将src中的html文件输出到dist中去
 gulp.task('handle:html', function () {
     return gulp.src('./src/views/*/*.html')
@@ -35,7 +35,7 @@ gulp.task('handle:html', function () {
 
 gulp.task('image', function () {
     return gulp.src('./src/image/*.*')
-        .pipe(imageMin({progressive: true}))
+        //.pipe(imageMin({progressive: true}))
         .pipe(gulp.dest('./dist/image'))
 })
 // 处理css， 合并css， 压缩css， 前缀，输出
