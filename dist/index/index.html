@@ -7,20 +7,12 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Document</title>
 		<!-- inject:css -->
-		<link rel="stylesheet" href="/index/css/common.min.css">
-		<link rel="stylesheet" href="/index/css/index.min.css">
-		<link rel="stylesheet" href="/index/css/login.min.css">
-		<link rel="stylesheet" href="/index/css/register.min.css">
 		<!-- endinject -->
 	</head>
 
 	<body>
 		<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 		<!-- inject:js -->
-		<script src="/index/js/index.min.js"></script>
-		<script src="/index/js/login.min.js"></script>
-		<script src="/index/js/register.min.js"></script>
-		<script src="/index/js/vendor.min.js"></script>
 		<!-- endinject -->
 		<div class="top">
 			<div class="top-center">
@@ -682,14 +674,53 @@
 				<img src="../image/5f8d45d18023f71d3ff150ab1b968f46.jpg"/>
 			</a>
 			<a href="javascript:void(0)">
-				<li>
+				<li class="last-li">
 					<h3>D软籽石榴</h3>
 					<h5>色艳粒大 营养丰富</h5>
 				</li>
 				<img src="../image/6448ec4492e575a68231512fc5ff7eea.jpg"/>
 			</a>
 		</ul>
-	</div>
+		 <div class="wrapper">
+	        <ul class="tab">
+	        	<h2><span>1F</span><i>食品酒水</i></h2>
+	            <li class="tab-item"><a href="javascript:void(0)">营养保健</a></li>
+	         	<li class="tab-item"><a href="javascript:void(0)">热销名酒</a></li>
+	         	<li class="tab-item"><a href="javascript:void(0)">食品饮料</a></li>
+	            <li class="tab-item active"><a href="javascript:void(0)">热门推荐</a></li> 
+	        </ul>
+	        <div class="products">
+	        	<div class="left-div">
+	        		123
+	        	</div>
+	            <div class="main ">
+	               
+	                1222
+	            </div>
+	            <div class="main">
+	               <dl>
+	                	<dt>2</dt>
+	                	<dd>3</dd>
+	                </dl>
+	            </div>
+	            <div class="main">
+	               <dl>
+	                	<dt>3</dt>
+	                	<dd>4</dd>
+	                </dl>
+	            </div>
+	            <div class="main selected main-first">
+					<a href="javascript:void(0)"><img src=""/></a>
+					<a href="javascript:void(0)"class="fd">2</a>
+					<a href="javascript:void(0)">3</a>
+					<a href="javascript:void(0)">4</a>
+					<a href="javascript:void(0)">5</a>
+					<a href="javascript:void(0)"class="fd">6</a>
+					<a href="javascript:void(0)">7</a>
+					<a href="javascript:void(0)">8</a> 
+	            </div>
+	        </div>
+		</div>
 	
 		<script type="text/javascript">
 			$('#inner').nav({
@@ -719,6 +750,25 @@
 		function aa() {
 			document.getElementById('account').value = document.getElementById('val').value;
 		}
+
+	</script>
+
+</html>ctor("#Q-nav");
+		window.onscroll = function() {
+			//获取页面滚走距离
+			var sTop = document.documentElement.scrollTop || document.body.scrollTop;
+			if(sTop > h) {
+				nav.style.position = "fixed";
+				nav.style.top = 0;
+			} else {
+				nav.style.position = "static";
+			}
+		}
+
+		function aa() {
+			document.getElementById('account').value = document.getElementById('val').value;
+		}
+
 	</script>
 
 </html>
